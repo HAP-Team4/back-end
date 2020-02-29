@@ -25,5 +25,6 @@ router.register(r'users', views.UserView, 'user')     # add this
 
 urlpatterns = [
     path('admin/', admin.site.urls),         
-    path('api/', include(router.urls))                # add this
+    path('api/', include(router.urls)),                # add this
+    path('', views.Index, name='index')                # add this
 ]

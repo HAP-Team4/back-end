@@ -11,3 +11,6 @@ class MovieView(viewsets.ModelViewSet):       # add this
 class UserView(viewsets.ModelViewSet):       # add this
       serializer_class = UserSerializer          # add this
       queryset = User.objects.all() 
+
+def Index(request):       # add this
+    return render(request, 'index.html')
