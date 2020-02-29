@@ -7,11 +7,11 @@ class MovieAdmin(admin.ModelAdmin):
         'title',
         'movie_id',
         'genre',
-        'date',
-        'time',
+        'datetime',
         'location',
         'capacity',
-        'attendees'
+        'attendees',
+        'url'
     )
 
 class UserAdmin(admin.ModelAdmin):

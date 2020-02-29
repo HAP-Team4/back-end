@@ -11,11 +11,11 @@ class MovieSerializer(serializers.ModelSerializer):
             'title',
             'movie_id',
             'genre',
-            'date',
-            'time',
+            'datetime',
             'location',
             'capacity',
-            'attendees'
+            'attendees',
+            'url'
         )
 
 class UserSerializer(serializers.ModelSerializer):

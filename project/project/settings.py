@@ -19,6 +19,11 @@ TEMPLATE_DIRS = (
     os.path.join(SETTINGS_PATH, 'templates'),
 )
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    # '/templates/static/',
+]
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
